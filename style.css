@@ -11,6 +11,10 @@ html{
     scroll-behavior: smooth;
     
 }
+body{
+    width: 100vw;
+    max-width: 100vw;
+}
 
 #panelGłówny{
     background: #181818;
@@ -171,6 +175,7 @@ animation:  pojawienieSię 1.25s ease-in-out,  duży-mały 0.9s linear;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     font-size: 2em;
     cursor: pointer;
     transition: 0.25s;
@@ -292,6 +297,9 @@ border: #181818 solid 1vh;
     }
     .ikona{
         font-size: 22px;
+    }
+    #rozwin{
+        font-size: 26px;
     }
 }
 
