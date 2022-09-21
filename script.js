@@ -64,3 +64,10 @@ prevButton.addEventListener("click", () => {
   const slideWidth = slide.clientWidth;
   slidesContainer.scrollLeft -= slideWidth;
 });
+
+function skopiujNr() {
+      
+    /* Copy text into clipboard */
+    navigator.clipboard.writeText("537893409");
+        alert("Skopiowano numer do schowka");
+}
