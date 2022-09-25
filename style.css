@@ -22,7 +22,7 @@ body{
     position: relative;
     background-image: url("https://images.unsplash.com/photo-1549873836-765d3157c324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); 
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 
@@ -61,6 +61,8 @@ animation:  pojawienieSię 1.25s ease-in-out,  duży-mały 0.9s linear;
     text-align: center;
     border-top: #F0A500 5px solid;
     border-bottom: #F0A500 5px solid;
+
+    overflow: hidden;
 }
 
 #krótki-opis{
@@ -87,7 +89,7 @@ animation:  pojawienieSię 1.25s ease-in-out,  duży-mały 0.9s linear;
     grid-template-rows: 80vh 20vh;
     align-items: center;
     justify-items: center;
-    
+    overflow: hidden;
 }
 #info-h4-2{
     text-align: center;
