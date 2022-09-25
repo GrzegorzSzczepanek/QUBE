@@ -59,6 +59,8 @@ animation:  pojawienieSię 1.25s ease-in-out,  duży-mały 0.9s linear;
     justify-items: center;
     align-items: center;
     text-align: center;
+    border-top: #F0A500 5px solid;
+    border-bottom: #F0A500 5px solid;
 }
 
 #krótki-opis{
