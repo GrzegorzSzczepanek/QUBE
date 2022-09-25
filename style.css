@@ -23,6 +23,7 @@ body{
     position: relative;
      background-image: url("https://images.unsplash.com/photo-1549873836-765d3157c324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); 
      background-size: cover;
+    overflow-x: hidden;
 }
 
 
@@ -50,7 +51,8 @@ animation:  pojawienieSię 1.25s ease-in-out,  duży-mały 0.9s linear;
 }
 
 #info{
-    
+    width: 100vw;
+    overflow-x: hidden;
     width: 100%;
     min-height: 130vh;
     background: #181818;
@@ -273,6 +275,7 @@ border: #181818 solid 1vh;
   
 
 @media (max-width:800px){
+
     #stópka{
         height: 110vh;
     }
@@ -280,9 +283,7 @@ border: #181818 solid 1vh;
         color: rgb(255, 255, 255);
         font-size: 3.5vw;
     }
-    .slider{
-        max-width: 500px;
-    }
+
     #ostatni-nagłówek-h1{
         font-size: 45px;
     }
