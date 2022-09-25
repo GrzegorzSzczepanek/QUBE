@@ -12,8 +12,7 @@ html{
     
 }
 body{
-
-    overflow-x: hidden;
+    width: 100vw;
 }
 
 #panelGłówny{
@@ -53,7 +52,7 @@ animation:  pojawienieSię 1.25s ease-in-out,  duży-mały 0.9s linear;
 #info{
 
 
-    width: 100%;
+    width: 100vw;
     min-height: 130vh;
     background: #181818;
     border-top: #F0A500 5px solid;
@@ -83,7 +82,7 @@ animation:  pojawienieSię 1.25s ease-in-out,  duży-mały 0.9s linear;
 }
 
 #stópka{
-    width: 100%;
+    width: 100vw;
     min-height: 70vh;
     background: #181818;
     display: grid;
