@@ -291,6 +291,9 @@ border: #181818 solid 1vh;
     #rozwin{
         font-size: 26px;
     }
+    .slide img{
+        max-width: 400px;
+    }
 }
 
 @keyframes pojawienieSię{
